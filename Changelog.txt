@@ -1,0 +1,8 @@
+Last updated 01DEC2021
+2.0: Implemented a watchdog/interrupt timer that calls the motor stepper function
+2.1: Added the button to start/stop the timer/motor, code reformatting
+Added the button to turn the fan on/off
+Locked the button presses until the motor is finished reversing
+2.2: Reworked motor stepping function to allow for one function to do both forward and reverse
+3.0: Adding the variable timing rate for speeding the motor up in forward motion
+3.1 Removing fan pin and changing to manual motor reversing
